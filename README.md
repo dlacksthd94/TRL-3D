@@ -10,7 +10,7 @@
     conda install -y pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
     conda install -y pyg -c pyg
 ```
-- ** recommend to use 'conda install' instead of 'pip install' (https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) **
+- **recommend to use 'conda install' instead of 'pip install' (https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)**
 
 #### case2: other machine
 1. create conda environment
@@ -21,14 +21,14 @@
 3. refer to https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
 
 ### Code Structure
-`main.py`
-`train.py`
-`models.py`
-`utils.py`
+`main.py`: experiment with various options\
+`train.py`: experiment pipeline\
+`models.py`: GNN model modules\
+`utils.py`: dataset & result I/O, ...\
 
 ### Experiment
 
-**  **
+**!! At first, downloading and preprocessing dataset can take about an hour !!**
 
 run command
 ```
