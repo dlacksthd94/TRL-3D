@@ -68,7 +68,7 @@ def load_and_split(args):
             ),
         ).shuffle()
         args["output_dim"] = 40
-    dataset = dataset[:25]  # test
+    # dataset = dataset[:25]  # test
     # dataset[0].category # check randomness
 
     # split dataset

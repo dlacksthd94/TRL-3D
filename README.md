@@ -20,11 +20,23 @@
 ```
 3. refer to https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
 
+</br>
+
+---
+
+</br>
+
 ### Code Structure
 `main.py`: experiment with various options\
 `train.py`: experiment pipeline\
 `models.py`: GNN model modules\
 `utils.py`: dataset & result I/O, ...\
+
+</br>
+
+---
+
+</br>
 
 ### Experiment
 

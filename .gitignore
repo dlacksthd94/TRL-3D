@@ -7,5 +7,5 @@ result.out
 run.sh
 sandbox.py
 table.*
-vis.html
+vis.*
 setup_env.sh
