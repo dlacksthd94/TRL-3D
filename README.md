@@ -1,6 +1,8 @@
-# Environment Setup and Package installation
+# Domain Adaptation using Graph Neural Network with 3D point cloud data
 
-### case1: GSDS remote server
+### Environment Setup and Package installation
+
+#### case1: GSDS remote server
 1. create conda environment
 2. run commands below
 ```
@@ -8,9 +10,9 @@
     conda install -y pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
     conda install -y pyg -c pyg
 ```
-- recommend to use 'conda install' instead of 'pip install' (https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) **
+- ** recommend to use 'conda install' instead of 'pip install' (https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) **
 
-### case2: other machine
+#### case2: other machine
 1. create conda environment
 2. run command
 ```
@@ -18,8 +20,15 @@
 ```
 3. refer to https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
 
+### Code Structure
+`main.py`
+`train.py`
+`models.py`
+`utils.py`
 
-# Experiment
+### Experiment
+
+**  **
 
 run command
 ```

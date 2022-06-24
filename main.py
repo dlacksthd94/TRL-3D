@@ -1,5 +1,5 @@
 import torch
-import model
+import train
 import argparse
 
 # common settings
@@ -78,4 +78,4 @@ args = {
     "result_dir": './result'
 }
 
-df_result = model.experiment(args)
+df_result = train.experiment(args)
